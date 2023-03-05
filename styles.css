@@ -1,0 +1,40 @@
+.wrapper {
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.example {
+    width: 100%;
+    max-width: 700px;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.control p {
+    width: 200px;
+}
+
+.control input {
+    width: 130px;
+}
+
+.control span {
+    width: 15px;
+    padding: 0px 5px;
+}
+
+.canvas {
+    border-radius: 8px;
+    border: 2px solid teal;
+}

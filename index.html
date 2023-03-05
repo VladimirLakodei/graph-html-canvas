@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5 CANVAS API</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="controls">
+                <div class="control">
+                    <p>Size of the vertices: <span id="verticesSizeValue"></span></p>
+                    <input type="range" min="7" max="20" value="1" id="verticesSize">
+                </div>
+
+                <div class="control">
+                    <p>Color of the vertices: <span id="verticesColorValue"></span></p>
+                    <input type="color" value="#ff0000" id="verticesColor">
+                </div>
+
+                <div class="control">
+                    <p>Size of the edges:<span id="edgesSizeValue"></span></p>
+                    <input type="range" min="5" max="20" value="1" id="edgesSize">
+                </div>
+
+                <div class="control">
+                    <p>Color of the edges:<span id="edgesColorValue"></span></p>
+                    <input type="color" value="#068282" id="edgesColor">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <canvas class="canvas" id="canvas" width="700" height="700"></canvas>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>
